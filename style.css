@@ -136,13 +136,14 @@ body {
 
 .profile-image {
     width: 35%;
+    margin-top: 50px;
 }
 
 .image-container {
     width: 100%;
     border-radius: 1rem;
     overflow: hidden;
-      position: relative;
+    position: relative;
 }
 
 
@@ -158,12 +159,11 @@ body {
 .image-container:hover img {
     transform: scale(1.05);
 }
-/* Commenting out the mobile screen styles */
+/* Commenting out the Desktop screen styles */
 
 @media (min-width: 768px) {
     .profile-image {
         width: 35%;
-       
     }
 }
 
