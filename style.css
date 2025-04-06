@@ -56,6 +56,12 @@ body {
     backdrop-filter: blur(10px);
 }
 
+@media (min-width: 768px) {
+    .top-nav {
+        margin-bottom: 20px;
+    }
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -136,24 +142,21 @@ body {
 
 .profile-image {
     width: 35%;
-    margin-top: 50px;
 }
 
 .image-container {
     width: 100%;
     border-radius: 1rem;
     overflow: hidden;
+    margin-top: 40px;
     position: relative;
 }
-
-
 
 .image-container img {
     width: 100%;
     height: auto;
     object-fit: contain;
     display: block;
-
 }
 
 .image-container:hover img {
@@ -219,6 +222,7 @@ body {
     .profile-title {
         font-size: 3.5rem;
     }
+
 }
 
 .profile-card {
